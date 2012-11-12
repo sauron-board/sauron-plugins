@@ -1,0 +1,19 @@
+{
+  "name":        "sauron-plugins",
+  "version":     "0.0.0",
+  "keywords":    "continuous delivery dashboard",
+  "description": "Plugins for the all-seeing continuous delivery dashboard",
+  "license":     "MIT",
+  "main": "index",
+  "dependencies": {
+    "coffee-script": "~1.4.0",
+    "cron": "~1.0.1",
+    "async": "0.1.x",
+    "request": "*",
+    "github": "0.x",
+    "feedparser": "~0.10.8"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}

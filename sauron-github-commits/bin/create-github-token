@@ -1,0 +1,17 @@
+#!/usr/bin/env coffee
+
+GitHubAPI = require 'github'
+githu
+
+github.authenticate({
+  username: result.username,
+  password: result.password
+});
+
+github.authorization.create({
+  scopes: [ "repo" ],
+  note:   "Authorization for sauron server"
+}, function(err, auth) {
+  log("Looks good!\n\n", auth);
+  log("\n\nYour Token:", auth.token);
+});
